@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testng.Cowin_TestNg">
+        <methods>
+          <include name="click_and_verify_the_cost"/>
+          <include name="click_select_state"/>
+          <include name="verify_the_hospital_shown"/>
+          <include name="click_and_verify_the_vaccine"/>
+          <include name="c_lick_select_district"/>
+          <include name="click_and_verify_the_age"/>
+          <include name="verify_the_list_and_select_district_and_click_search"/>
+          <include name="click_select_by_district"/>
+          <include name="click_and_verify_the_dose"/>
+          <include name="verify_the_list_and_select_state"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testng.Cowin_TestNg -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
